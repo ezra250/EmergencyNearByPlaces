@@ -1,0 +1,111 @@
+<RelativeLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/location_search"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="enter any places...."
+            android:inputType=""
+            android:autofillHints="" />
+
+        <ImageButton
+            android:id="@+id/search_address"
+            android:layout_width="93dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/search"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:context=".MapsActivity" />
+
+    <RelativeLayout
+        android:id="@+id/second_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/hospital_near"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="1dp"
+            android:onClick="onClick"
+            android:src="@mipmap/hospital"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/police_near"
+            android:layout_width="70dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toRightOf="@+id/hospital_near"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/police"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/firestation_near"
+            android:layout_width="70dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="211dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginBottom="2dp"
+            android:layout_toRightOf="@+id/police_near"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/fire"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/garage_near"
+            android:layout_width="70dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/firestation_near"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/garage"
+            android:contentDescription="TODO" />
+    </RelativeLayout>
+</RelativeLayout>
+

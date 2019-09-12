@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654970644136",
+    "firebase_url": "https://emergencynearbyplaces-15662.firebaseio.com",
+    "project_id": "emergencynearbyplaces-15662",
+    "storage_bucket": "emergencynearbyplaces-15662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654970644136:android:e1e2d6ee786d4b25",
+        "android_client_info": {
+          "package_name": "com.example.emergencynearbyplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654970644136-m46pcju08phssl6a3vpvek05gpv870h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emergencynearbyplaces",
+            "certificate_hash": "0a9b34a05a3ab369e2d914f3542a874e2f6d7a7e"
+          }
+        },
+        {
+          "client_id": "654970644136-us7obeh21c93t8vraqesnrvhfe9bi56c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7WgnzgOL8zRwbI_SOrZZ04ptvMa6Tnu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654970644136-us7obeh21c93t8vraqesnrvhfe9bi56c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

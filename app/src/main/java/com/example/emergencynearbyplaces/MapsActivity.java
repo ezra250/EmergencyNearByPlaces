@@ -317,8 +317,6 @@ public class MapsActivity extends FragmentActivity implements
 
                 getNearbyPlacesData.execute(dataTransfer);
                 Toast.makeText(MapsActivity.this, "Showing Nearby administrative office", Toast.LENGTH_SHORT).show();
-
-
         }
     }
 
